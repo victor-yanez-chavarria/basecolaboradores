@@ -1,0 +1,59 @@
+#root {
+  padding: 0.5rem 1rem;
+  height: 100vh;
+}
+
+.buscador,
+.table-responsive,
+.formulario,
+.alert-box {
+  padding: 0;
+}
+
+table {
+  font-size: 0.7rem;
+}
+
+tr:hover td {
+  background-color: #ddd;
+  transition: background-color 0.3s;
+}
+
+input {
+  border-color: #999 !important;
+}
+
+button {
+  background-color: #6610f2 !important;
+  color: #fff !important;
+}
+
+button:hover {
+  background-color: #6f42c1 !important;
+  transition: background-color 0.3s;
+}
+
+.fa-trash-can:hover {
+  color: #e63946;
+  transition: color 0.3s;
+}
+
+.display-none {
+  display: none;
+}
+
+@media screen and (min-width: 992px) {
+  #root {
+    padding: 1rem 2rem;
+  }
+  table {
+    font-size: 1rem;
+  }
+  .table-responsive {
+    padding-right: 1rem;
+  }
+  .formulario,
+  .alert-box {
+    padding-left: 1rem;
+  }
+}
